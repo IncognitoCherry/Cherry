@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-header {
+header, .header {
     background-color: #333;
     color: #F08080;
     padding: 20px 0;
@@ -19,42 +19,72 @@ nav {
     padding: 10px 0;
 }
 
-nav a {
+nav a, .button, .social-button {
     margin: 0 20px;
     color: #F08080;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
-nav a:hover {
+nav a:hover, .button:hover, .social-button:hover {
     color: #fff;
 }
 
 .container {
     padding: 50px;
     text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.button {
+.button, .social-button {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
     border: none;
     border-radius: 5px;
-    color: #fff;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
-.button:hover {
+.button:hover, .social-button:hover {
     background-color: #fff;
     color: #800000; /* Maroon color */
 }
 
-.button img {
+.button img, .social-button img {
     width: 60px;
     height: 60px;
     margin-bottom: -10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game-button {
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.game-button img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-button:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 footer {
