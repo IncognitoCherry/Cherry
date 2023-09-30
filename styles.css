@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #F08080; /* Cherry color */
+    background-color: #800000; /* Maroon color */
     color: #333;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ nav a:hover {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
-    border: none; /* Remove the border */
+    border: none;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
@@ -48,7 +48,7 @@ nav a:hover {
 
 .button:hover {
     background-color: #fff;
-    color: #F08080;
+    color: #800000; /* Maroon color */
 }
 
 .button img {
