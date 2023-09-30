@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slope Game</title>
-        <a href="games.html" class="social-button"> alt="Back To Games"></a>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: maroon;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
         .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
             text-align: center;
         }
 
@@ -25,6 +28,8 @@
             padding-bottom: 56.25%; /* 16:9 aspect ratio */
             height: 0;
             overflow: hidden;
+            width: 80%; /* Adjust the width of the embedded content */
+            margin-bottom: 20px;
         }
 
         .embed-container iframe {
@@ -34,12 +39,20 @@
             width: 100%;
             height: 100%;
         }
+
         .social-button {
-            margin: 0 10px;
+            margin-top: 20px;
             text-decoration: none;
-            color: #fff;
+            color: white;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
+        .social-button:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 
@@ -50,6 +63,7 @@
             <!-- Embedded Link to Y8 Slope Game -->
             <iframe src="https://slopegame.online/" frameborder="0" allowfullscreen></iframe>
         </div>
+        <a href="games.html" class="social-button">Back To Games</a>
     </div>
 </body>
 
