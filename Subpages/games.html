@@ -2,34 +2,103 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games|Cherry</title>
-    <link rel="icon" href="Logos/Instagram-Logo.png" type="image/Favicon">
-    <link rel="stylesheet" href="Subpages/styles.css">
+    <title>Cherry</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: maroon;
+            color: white;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .game-button {
+            display: block;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .game-button img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .game-button:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-button {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="button-container">
-            <a href="#" class="game-button">
-                <img src="#" alt="Game 1">
+            <a href="Subpages/game1.html" class="game-button">
+                <img src="GameImages/game1.jpg" alt="Game 1">
             </a>
-            <a href="#" class="game-button">
-                <img src="#" alt="Game 2">
+            <a href="Subpages/game2.html" class="game-button">
+                <img src="GameImages/game2.jpg" alt="Game 2">
             </a>
             <!-- Add more game buttons as needed -->
         </div>
         <h1>Cherry!!</h1>
     </header>
 
+    <div class="container">
+        <div id="content">
+            <h2>Bio</h2>
+            <p>Coming soon because I'm lazy</p>
+        </div>
+    </div>
+
     <nav>
         <a href="https://twitter.com" class="social-button"><img src="Logos/X-Logo.png" alt="Twitter"></a>
         <a href="https://discord.gg/h9qFTEvUBe" class="social-button"><img src="Logos/Discord-Logo.png" alt="Discord"></a>
         <a href="https://www.instagram.com/ubergdooper" class="social-button"><img src="Logos/Instagram-Logo-2.png" alt="Instagram"></a>
     </nav>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
