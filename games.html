@@ -15,8 +15,8 @@
         }
 
         .header {
-            background-color: black; /* Set header background color to black */
-            color: white; /* Set header text color to white */
+            background-color: black;
+            color: white;
             padding: 20px;
             text-align: center;
         }
@@ -56,49 +56,51 @@
             padding: 20px;
         }
 
-        nav {
+        .footer {
             background-color: black;
-            color: #fff;
+            color: white;
             text-align: center;
             padding: 10px;
             position: fixed;
             bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
-       .social-button {
-    margin: 0 10px; /* Increase the margin for better spacing */
-    text-decoration: none;
-    color: #fff;
-           
-.social-button img {
-    width: 8px; /* Adjust the width as per your preference */
-    height: 8px; /* Adjust the height as per your preference */
-    margin: 0; /* Remove any default margin */
-}
+        .social-button {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
 
+        .social-button img {
+            width: 24px;
+            height: 24px;
+        }
     </style>
 </head>
 
 <body>
-<header class="header">
-    <h1>Blessed Cherries Games</h1>
-</header>
+    <header class="header">
+        <h1>Blessed Cherries Games</h1>
+    </header>
+
     <div class="button-container">
-    <a href="slope.html" class="game-button">
-                <img src="Logos/slope-game-logo4.jpg" alt="Slope">
-    </a>
-        <a href="Subpages/game2.html" class="game-button">
-                <img src="GameImages/game2.jpg" alt="Game 2">
+        <a href="slope.html" class="game-button">
+            <img src="Logos/slope-game-logo4.jpg" alt="Slope">
         </a>
-            <!-- Add more game buttons as needed -->
+        <a href="Subpages/game2.html" class="game-button">
+            <img src="GameImages/game2.jpg" alt="Game 2">
+        </a>
+        <!-- Add more game buttons as needed -->
     </div>
 
-    <div class="nav-container">
-    <a href="https://twitter.com" class="social-button"><img src="Logos/X-Logo.png" alt="Twitter"></a>
-    <a href="https://discord.gg/h9qFTEvUBe" class="social-button"><img src="Logos/Discord-Logo.png" alt="Discord"></a>
-    <a href="https://www.instagram.com/ubergdooper" class="social-button"><img src="Logos/Instagram-Logo-2.png" alt="Instagram"></a>
-</div>
-
+    <div class="footer">
+        <a href="https://twitter.com" class="social-button"><img src="Logos/X-Logo.png" alt="Twitter"></a>
+        <a href="https://discord.gg/h9qFTEvUBe" class="social-button"><img src="Logos/Discord-Logo.png" alt="Discord"></a>
+        <a href="https://www.instagram.com/ubergdooper" class="social-button"><img src="Logos/Instagram-Logo-2.png" alt="Instagram"></a>
+    </div>
 </body>
 
 </html>
