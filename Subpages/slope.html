@@ -12,23 +12,26 @@
             padding: 0;
             background-color: maroon;
             color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+        }
+
+        .header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
         }
 
         .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
             text-align: center;
         }
 
         .embed-container {
             position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-bottom: 60%; /* 16:9 aspect ratio */
             height: 0;
             overflow: hidden;
-            width: 80%; /* Adjust the width of the embedded content */
             margin-bottom: 20px;
         }
 
@@ -41,7 +44,6 @@
         }
 
         .social-button {
-            margin-top: 20px;
             text-decoration: none;
             color: white;
             background-color: #333;
@@ -57,13 +59,15 @@
 </head>
 
 <body>
+    <div class="header">
+        <a href="games.html" class="social-button">Back To Games</a>
+    </div>
     <div class="container">
         <h1>Play Slope Game</h1>
         <div class="embed-container">
             <!-- Embedded Link to Y8 Slope Game -->
             <iframe src="https://slopegame.online/" frameborder="0" allowfullscreen></iframe>
         </div>
-        <a href="games.html" class="social-button">Back To Games</a>
     </div>
 </body>
 
