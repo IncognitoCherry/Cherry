@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F08080; /* Cherry color */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #F08080;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: #F08080;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .container {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #fff;
+            color: #F08080;
+        }
+       .button img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cherry!!</h1>
+    </header>
+
+    <div class="container">
+        <div id="content">
+            <h2>Bio</h2>
+            <p>Coming soon because im lazy</p>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll(".button").forEach(function(button) {
+            button.addEventListener("click", function() {
+                window.location.href = "https://www.example.com/" + button.innerText.toLowerCase().replace(/\s+/g, '');
+            });
+        });
+    </script>
+  <nav>
+        <a href="#" class="button"><img src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg" alt="Twitter"></a>
+        <a href="#" class="button"><img src="https://static-00.iconduck.com/assets.00/discord-icon-1024x1024-le8qfhs7.png" alt="Discord"></a>
+        <a href="#" class="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram"></a>
+    </nav>
+</body>
+
+</html>
