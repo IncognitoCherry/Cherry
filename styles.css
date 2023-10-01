@@ -10,20 +10,23 @@ body {
     padding: 0;
 }
 
-header, .header {
+.header, header {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #000;
     color: #F08080;
-    padding: 20px 0;
+    padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    width: 100%;
 }
 
 nav {
     background-color: #333;
     text-align: center;
     padding: 10px 0;
+    width: 100%;
 }
 
 nav a, .button, .social-button {
@@ -44,7 +47,7 @@ nav a:hover, .button:hover, .social-button:hover {
     margin: 0 auto;
 }
 
-.button, .social-button {
+.button, .social-button, .game-button {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
@@ -52,11 +55,7 @@ nav a:hover, .button:hover, .social-button:hover {
     border-radius: 5px;
     text-decoration: none;
     transition: all 0.3s ease;
-}
-
-.button:hover, .social-button:hover {
-    background-color: #fff;
-    color: #800000; /* Maroon color */
+    color: #fff;
 }
 
 .button img, .social-button img {
@@ -65,22 +64,21 @@ nav a:hover, .button:hover, .social-button:hover {
     margin-bottom: -10px;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.button:hover, .social-button:hover, .game-button:hover {
+    background-color: #fff;
+    color: #800000; /* Maroon color */
 }
 
 .game-button {
     display: block;
     margin: 10px;
     padding: 20px;
-    border: 2px solid #333;
+    border: 2px solid #fff;
     border-radius: 10px;
     text-decoration: none;
-    color: #333;
     text-align: center;
     transition: all 0.3s ease;
+    color: #fff;
 }
 
 .game-button img {
@@ -90,13 +88,14 @@ nav a:hover, .button:hover, .social-button:hover {
 }
 
 .game-button:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #800000; /* Maroon color */
 }
 
-footer {
+.footer {
     background-color: #000; /* Black color */
     color: #fff; /* White text color */
     text-align: center;
     padding: 10px 0;
+    width: 100%;
 }
