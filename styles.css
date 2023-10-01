@@ -16,9 +16,14 @@ body {
     align-items: center;
 }
 
+.buttons-container {
+    display: flex;
+    margin-top: 20px;
+}
+
 .tbd-button {
-    margin: 0 10px;
-    padding: 10px 20px;
+    margin: 0 20px; /* Increased spacing between buttons */
+    padding: 15px 30px; /* Larger padding for the buttons */
     border: 2px solid #333;
     border-radius: 10px;
     text-decoration: none;
@@ -32,12 +37,6 @@ body {
 }
 
 .container {
-    margin-top: 20px;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
 }
 
