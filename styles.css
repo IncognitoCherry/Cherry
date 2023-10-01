@@ -53,8 +53,8 @@ nav a:hover, .button:hover, .social-button:hover {
 }
 
 .button img, .social-button img {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
     margin-bottom: -10px;
 }
 
