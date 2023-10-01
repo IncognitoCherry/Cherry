@@ -12,10 +12,27 @@ body {
     color: #F08080;
     padding: 20px 0;
     display: flex;
-    justify-content: space-between; /* Align items on the same row */
-    align-items: center; /* Center-align vertically */
-    width: 100%; /* Ensure the header takes full width */
-    margin: 0 auto; /* Center the header content */
+    flex-direction: column;
+    align-items: center;
+}
+
+.tbd-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.tbd-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    margin-top: 20px;
 }
 
 .button-container {
