@@ -45,7 +45,7 @@ body {
 
 
 .game-button img {
-    width: 50%;
+    width: 100px;
     height: auto;
     border-radius: 10px 10px 0 0;
     margin-bottom: -10px;
