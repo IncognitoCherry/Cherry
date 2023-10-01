@@ -1,90 +1,51 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-family: 'Arial', sans-serif;
-    background-color: #800000;
-    color: #fff;
-    height: 100vh;
+    background-color: #800000; /* Maroon color */
+    color: #fff; /* White text color */
     margin: 0;
+    padding: 0;
 }
 
-header, .header {
+.header {
     background-color: #333;
     color: #F08080;
     padding: 20px 0;
     text-align: center;
-    width: 100%;
 }
 
-
-nav {
-    background-color: #333;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-}
-
-nav a, .button, .social-button, .game-button {
-    margin: 0 20px;
-    color: #F08080;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-nav a:hover, .button:hover, .social-button:hover, .game-button:hover {
-    color: #fff;
-}
-
-.container {
-    padding: 50px;
-    text-align: center;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.button, .social-button, .game-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    color: #fff;
-}
-
-.button img, .social-button img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: -10px;
-}
-
-.game-button img {
-    width: 80px; /* Adjust image size as needed */
-    height: 80px; /* Adjust image size as needed */
-    margin-bottom: 10px;
-}
-
-.button:hover, .social-button:hover, .game-button:hover {
-    background-color: #fff;
-    color: #800000; /* Maroon color */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .game-button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
     padding: 20px;
-    border: 2px solid #fff;
+    border: 2px solid #333;
     border-radius: 10px;
     text-decoration: none;
+    color: #333;
     text-align: center;
     transition: all 0.3s ease;
-    color: #fff;
+}
+
+.game-button img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.game-button span {
+    margin-top: 10px;
+}
+
+.game-button:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 .footer {
@@ -92,7 +53,24 @@ nav a:hover, .button:hover, .social-button:hover, .game-button:hover {
     color: #fff; /* White text color */
     text-align: center;
     padding: 10px 0;
-    width: 100%;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 0 20px;
+    color: #F08080;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-button img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -10px;
+}
+
+.social-button:hover {
+    color: #fff;
 }
 
 .calendar-container {
