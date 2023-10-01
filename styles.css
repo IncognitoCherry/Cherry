@@ -42,26 +42,24 @@ body {
     margin-bottom: -10px;
 }
 
-
-
- .game-button {
-            display: block;
-            margin: 10px;
-            padding: 20px;
-            border: 2px solid #333;
-            border-radius: 10px;
-            text-decoration: none;
-            color: #333;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
+.game-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px; 
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-size: 14px; 
+    transition: all 0.3s ease;
+}
 
 .game-button img {
-            width: 20%;
-            height: auto;
-            border-radius: 10px;
-        }
-
+    width: 50px; 
+    height: auto;
+    border-radius: 10px;
+}
 
 .container {
     margin-top: 20px;
