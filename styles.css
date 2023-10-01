@@ -36,11 +36,13 @@ body {
     color: #fff;
     transform: scale(1.1);
 }
-.social-button img{
+.social-button img, .tbd-button img{
     width: 30px;
     height: 30px;
     margin-bottom: -10px;
 }
+
+
 
 .game-button img {
     width: 50%;
