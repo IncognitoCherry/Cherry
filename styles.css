@@ -16,9 +16,10 @@ body {
     align-items: center;
 }
 
-.buttons-container {
+.button-container {
     display: flex;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tbd-button, .social-button {
