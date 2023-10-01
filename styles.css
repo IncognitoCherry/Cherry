@@ -7,6 +7,8 @@ body {
 }
 
 header, .header {
+    display: flex;
+    align-items: center;
     background-color: #333;
     color: #F08080;
     padding: 20px 0;
