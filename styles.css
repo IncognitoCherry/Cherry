@@ -1,39 +1,33 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--theme-font-family-base);
-    background-color: var(--color-primary-500); /* Maroon color */
-    color: var(--theme-font-color-dark); /* White text color */
+    font-family: 'Arial', sans-serif;
+    background-color: #800000; /* Maroon color */
+    color: #fff; /* White text color */
     margin: 0;
     padding: 0;
 }
 
 header, .header {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-secondary-700);
-    color: var(--color-secondary-100);
+    background-color: #333;
+    color: #F08080;
     padding: 20px 0;
     text-align: center;
 }
 
 nav {
-    background-color: var(--color-secondary-700);
+    background-color: #333;
     text-align: center;
     padding: 10px 0;
 }
 
 nav a, .button, .social-button {
     margin: 0 20px;
-    color: var(--color-secondary-100);
+    color: #F08080;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 nav a:hover, .button:hover, .social-button:hover {
-    color: var(--color-secondary-50);
+    color: #fff;
 }
 
 .container {
@@ -48,14 +42,14 @@ nav a:hover, .button:hover, .social-button:hover {
     padding: 10px 20px;
     margin: 10px;
     border: none;
-    border-radius: var(--theme-rounded-base);
+    border-radius: 5px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .button:hover, .social-button:hover {
-    background-color: var(--color-secondary-50);
-    color: var(--color-primary-500); /* Maroon color */
+    background-color: #fff;
+    color: #800000; /* Maroon color */
 }
 
 .button img, .social-button img {
@@ -74,10 +68,10 @@ nav a:hover, .button:hover, .social-button:hover {
     display: block;
     margin: 10px;
     padding: 20px;
-    border: 2px solid var(--color-secondary-700);
-    border-radius: var(--theme-rounded-container);
+    border: 2px solid #333;
+    border-radius: 10px;
     text-decoration: none;
-    color: var(--color-secondary-700);
+    color: #333;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -85,17 +79,17 @@ nav a:hover, .button:hover, .social-button:hover {
 .game-button img {
     width: 100%;
     height: auto;
-    border-radius: var(--theme-rounded-container);
+    border-radius: 10px;
 }
 
 .game-button:hover {
-    background-color: var(--color-secondary-700);
-    color: var(--color-secondary-100);
+    background-color: #333;
+    color: #fff;
 }
 
 footer {
-    background-color: var(--color-secondary-900); /* Black color */
-    color: var(--color-secondary-100); /* White text color */
+    background-color: #000; /* Black color */
+    color: #fff; /* White text color */
     text-align: center;
     padding: 10px 0;
 }
