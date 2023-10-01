@@ -1,10 +1,10 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #800000; /* Maroon color */
-    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+    background-color: #800000;
+    color: #fff;
     margin: 0;
     padding: 0;
-    text-align: center; /* Center-align body text */
+    text-align: center;
 }
 
 .header {
@@ -21,73 +21,31 @@ body {
     margin-top: 20px;
 }
 
-.tbd-button {
-    margin: 0 20px; /* Increased spacing between buttons */
-    padding: 15px 30px; /* Larger padding for the buttons */
+.tbd-button, .game-button, .social-button {
+    margin: 0 20px;
+    padding: 15px 30px;
     border: 2px solid #333;
     border-radius: 10px;
     text-decoration: none;
     color: #333;
-    transition: background-color 0.3s ease; /* Re-add the transition effect if needed */
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
 }
 
-.tbd-button:hover {
-    background-color: #333 !important; /* Override any conflicting styles */
+.tbd-button:hover, .game-button:hover, .social-button:hover {
+    background-color: #333;
     color: #fff;
-}
-
-.container {
-    margin-top: 20px;
-}
-
-.game-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-    border: 2px solid #333;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #333;
-    text-align: center;
-    transition: all 0.3s ease;
+    transform: scale(1.1);
 }
 
 .game-button img {
     width: 50%;
     height: auto;
     border-radius: 10px 10px 0 0;
-}
-
-.game-button span {
-    margin-top: 10px;
-}
-
-.game-button:hover {
-    background-color: #333;
-    color: #fff;
-}
-
-.footer {
-    background-color: #000; /* Black color */
-    color: #fff; /* White text color */
-    text-align: center;
-    padding: 10px 0;
-}
-
-.social-button {
-    margin: 0 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.social-button:hover {
-    transform: scale(1.2);
-
-.social-button img {
-    width: 40px;
-    height: 40px;
     margin-bottom: -10px;
+}
+
+.container {
+    margin-top: 20px;
 }
 
 .calendar-container {
@@ -100,4 +58,11 @@ iframe {
     width: 100%;
     height: 600px;
     border: none;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
