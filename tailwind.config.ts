@@ -1,4 +1,4 @@
-import { myCustomTheme } from './theme';
+import { myCustomTheme } from './my-custom-theme';
 
 import skeleton from '@skeletonlabs/tw-plugin';
 
