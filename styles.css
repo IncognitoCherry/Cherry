@@ -21,7 +21,7 @@ body {
     margin-top: 20px;
 }
 
-.tbd-button, .game-button, .social-button {
+.tbd-button, .social-button {
     margin: 0 15px;
     padding: 10px 20px;
     border: 2px solid #333;
@@ -44,12 +44,24 @@ body {
 
 
 
+ .game-button {
+            display: block;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
 .game-button img {
-    width: 100px;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-    margin-bottom: -10px;
-}
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
 
 .container {
     margin-top: 20px;
