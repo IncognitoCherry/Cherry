@@ -36,6 +36,11 @@ body {
     color: #fff;
     transform: scale(1.1);
 }
+.social-button img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -10px;
+}
 
 .game-button img {
     width: 50%;
