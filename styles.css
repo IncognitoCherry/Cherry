@@ -15,6 +15,10 @@ header, .header {
     text-align: center;
 }
 
+.header h1 {
+    margin-right: auto;
+}
+
 nav {
     background-color: #333;
     text-align: center;
