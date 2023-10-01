@@ -14,7 +14,6 @@ body {
     display: flex;
     justify-content: space-between; /* Align items on the same row */
     align-items: center; /* Center-align vertically */
-    width: 100%;
 }
 
 .button-container {
