@@ -45,7 +45,7 @@ body {
 
 .game-button {
     display: flex;
-    flex-direction: column;
+    flex-direction: grid;
     align-items: center;
     width: 150px; 
     height: 150px;
