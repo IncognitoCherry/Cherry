@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slope Game</title>
+    <style>
+               .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .embed-container {
+            position: relative;
+            padding-bottom: 60%;
+            height: 0;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Play Slope Game</h1>
+    </div>
+    <div class="container">
+        <a href="https://incognitocherry.vercel.app/games.html" class="social-button">Back To Games</a>
+        <div class="embed-container">
+            <!-- Embedded Link to Y8 Slope Game -->
+            <iframe src="https://slopegame.online/" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
