@@ -70,8 +70,9 @@ nav a:hover, .button:hover, .social-button:hover {
 }
 
 .game-button {
-    display: block;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -79,12 +80,14 @@ nav a:hover, .button:hover, .social-button:hover {
     text-align: center;
     transition: all 0.3s ease;
     color: #fff;
+    width: 100%;
+    height: 100%;
 }
 
 .game-button img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 80px; /* Adjust image size as needed */
+    height: 80px; /* Adjust image size as needed */
+    margin-bottom: 10px;
 }
 
 .game-button:hover {
