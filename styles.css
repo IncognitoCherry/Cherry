@@ -4,13 +4,16 @@ body {
     color: #fff; /* White text color */
     margin: 0;
     padding: 0;
+    text-align: center; /* Center-align body text */
 }
 
 .header {
     background-color: #333;
     color: #F08080;
     padding: 20px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Align items on the same row */
+    align-items: center; /* Center-align vertically */
 }
 
 .button-container {
