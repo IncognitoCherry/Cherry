@@ -1,13 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #800000;
-    color: #fff;
+/* Reset some default styles */
+body, h1, p {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-.header {
+/* Style the header */
+header {
     background-color: #333;
     color: #F08080;
     padding: 20px 0;
@@ -22,8 +20,9 @@ body {
     justify-content: center;
 }
 
-.tbd-button, .social-button {
-    margin: 0 15px;
+/* Style the overlay buttons with the "tbd-button" class */
+.tbd-button {
+    margin: 10px;
     padding: 10px 20px;
     border: 2px solid #333;
     border-radius: 10px;
@@ -32,9 +31,9 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease-in-out;
 }
 
-.tbd-button:hover, .game-button:hover, .social-button:hover {
-    background-color: #333;
-    color: #fff;
+.tbd-button:hover {
+    background-color: #0074D9;
+    color: white;
     transform: scale(1.1);
 }
 
@@ -48,23 +47,6 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-.tbd-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #0074D9;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.tbd-button:hover {
-    background-color: #0056b3;
 }
 
 .social-button img, .tbd-button img {
